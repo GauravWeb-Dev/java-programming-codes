@@ -1,0 +1,20 @@
+
+public class Launch {
+
+	public static void main(String[] args) {
+         
+		StringBuffer sb = new StringBuffer();
+		
+		int x = sb.capacity();
+		
+		System.out.println(x);
+		
+		sb.append("Good Morning");
+		
+		x = sb.capacity();
+		
+		System.out.println(x);
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package com.solution.service;
+
+//class Test {
+//	static int count;
+//	{
+//		count++;
+//	}
+//
+//	Test() {
+//
+//	}
+//
+//	Test(int a) {
+//
+//	}
+//
+//	Test(int a, int b) {
+//
+//	}
+//
+//	Test(int a, int b, int c) {
+//
+//	}
+//
+//	public void display() {
+//		System.out.println("No of objects created is ::" + count);
+//	}
+//}
+
+public class TestApp {
+	public static void main(String... args) {
+		new Test();
+		new Test(10);
+		new Test(10, 20);
+		Test t = new Test(10, 20, 30);
+		t.display();
+	}
+}

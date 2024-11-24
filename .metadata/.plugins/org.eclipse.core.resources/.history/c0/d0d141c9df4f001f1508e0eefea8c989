@@ -1,0 +1,11 @@
+package com.solution.controller;
+
+public class Start {
+     
+	public void startAtm() {
+		System.out.println("***********Welcome to HDFC Bank ATM ************");
+	    System.out.println("Select yout option\n 1.Balance Check \n 2.Deposit \n 3. WithDrawn \n 4.Send \n 5.Exit");
+		
+	
+	}
+}

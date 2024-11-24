@@ -1,0 +1,24 @@
+
+public class TestApp5 {
+
+	public static void main(String[] args) {
+           
+		final int x = 100;
+		
+		final String s8 = "you cannot ";
+		s8.concat("Hello");
+		
+		
+		char [] c = {'H','E','L','L','O'};
+		
+		String c1 = new String(c);
+		System.out.println(c1);
+		
+		byte[] b = {};
+		
+		
+		
+		
+	}
+
+}

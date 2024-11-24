@@ -1,0 +1,29 @@
+class Student{
+	int id = 1;
+	String name = "Salman";
+	int age = 13;
+	
+	
+	public void study() {
+		System.out.println("Students are studying");
+	}
+	
+	public void play() {
+		System.out.println("Students are playing");
+	}
+	
+	
+}
+
+
+
+
+public class Test3 {
+    public static void main(String[] args) {
+    	
+    	 Student s1 = new Student();
+    	 int x = 10;
+    	 
+    	 System.out.println(s1);
+    }
+}

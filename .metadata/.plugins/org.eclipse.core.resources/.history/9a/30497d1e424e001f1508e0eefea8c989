@@ -1,0 +1,16 @@
+package com.solution.main;
+class Parent1 {
+	
+}
+
+class Child1{
+	
+}
+public class Test3 {
+
+	public static void main(String[] args) {
+      
+		
+	}
+
+}

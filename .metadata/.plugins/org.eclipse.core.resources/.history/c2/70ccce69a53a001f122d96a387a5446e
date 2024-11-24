@@ -1,0 +1,36 @@
+
+public class Test6 {
+
+	public static void main(String[] args) {
+         float x = 10f;
+         float y = 20f;
+         
+         float sum =(x + y) ;
+         System.out.println(sum);
+         
+         float sub = x - y ;
+         System.out.println(sub);
+         
+         float mul = x * y ;
+         System.out.println(mul);
+         
+         float div = x / y ;
+         System.out.println(div);
+         
+         int m = 20;
+         int n = 3;
+         
+         int o = m%n;
+         
+         System.out.println(o);
+         
+         int a = 10;
+         
+           a = a+1;
+           
+           System.out.println(a);
+         
+         
+	}
+
+}

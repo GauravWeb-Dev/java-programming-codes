@@ -1,0 +1,12 @@
+package com.solution.main;
+
+public class Test2 {
+    
+	public static void main(String[] args) {
+               System.out.println("Main Method method is executing");     
+	}
+
+	 static {
+    	 System.out.println("Test.class file is loading");
+     }
+}

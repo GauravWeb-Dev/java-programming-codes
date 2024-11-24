@@ -1,0 +1,30 @@
+package com.solution.main;
+abstract class Bank{
+	 public abstract void withDreawn();
+	 public abstract void deposit();
+	 public abstract void balanceCheck();
+	 public abstract void miniStatement();
+	 public abstract void insurance();
+}
+
+class SBI extends Bank{
+	int balance  = 1000;
+	
+	 public void withDreawn() {}
+	 public void deposit() {}
+	 public int balanceCheck() {
+		 return balance;
+	 }
+	 public void miniStatement() {}
+	 public void insurance() {}
+	
+}
+
+
+public class TestApp2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

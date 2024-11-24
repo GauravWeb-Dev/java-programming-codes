@@ -1,0 +1,40 @@
+
+ class Test {
+     
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World !!");
+		
+		
+		byte b = 100;
+		
+		byte b1 = -123;
+		
+		byte b2 = -128;
+		
+		System.out.println(b1);
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE);
+		
+		
+		
+		short s1 = 10000;
+		System.out.println(Short.MIN_VALUE);
+		System.out.println(Short.MAX_VALUE);
+		
+		int x = 2345678;
+		System.out.println(Integer.MIN_VALUE);
+		System.out.println(Integer.MAX_VALUE);
+		
+		long l = 987654321234567l;
+		
+		System.out.println(Long.MIN_VALUE);
+		System.out.println(Long.MAX_VALUE);
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.solution.main;
+
+public class TestApp7 {
+
+	public static void main(String[] args) {
+     
+	}
+
+}

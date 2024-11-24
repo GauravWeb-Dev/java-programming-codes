@@ -1,0 +1,22 @@
+class School{
+	int playGround = 2;
+	int classRoom = 5;
+	
+}
+
+class Student extends School{
+	int playGround = 9;
+	
+	public void play() {
+		System.out.println(playGround);
+	}
+}
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

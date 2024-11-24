@@ -1,0 +1,17 @@
+package com.solution.test;
+import com.solution.controller.Launch;
+import com.solution.main.Demo;
+public class Start {
+
+	public static void main(String[] args) {
+        System.out.println("Entering main method");  
+		Launch l = new Launch();
+		l.greet("Gaurav");
+		
+		Demo d = new Demo();
+		d.add(10, 20);
+		
+		System.out.println("Exiting main method");
+	}
+
+}

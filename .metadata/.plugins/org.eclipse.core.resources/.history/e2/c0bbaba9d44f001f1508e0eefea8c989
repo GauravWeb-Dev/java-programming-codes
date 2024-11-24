@@ -1,0 +1,20 @@
+package com.solution.main;
+interface IBank{
+	float interest = 8.05f;
+	
+	public void blanceCheck();
+	public int withdrawn();
+	public String miniStatement(); 
+		
+	
+}
+
+
+
+public class TestApp {
+
+	public static void main(String[] args) {
+     
+	}
+
+}

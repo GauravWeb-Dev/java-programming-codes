@@ -1,0 +1,22 @@
+
+public class Launch2 {
+
+	public static void main(String[] args) {
+		/*
+		 * initialization;
+		 * 
+		 * while(condition){
+		 *   //body
+		 * increment;
+		 * }
+		 */
+		
+		int i=0;
+		while(i<100) {
+			System.out.println(i);
+			i++;
+		}
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.solution.controller;
+
+import java.util.Scanner;
+public class Start {
+	
+	  Scanner sc = null;
+      public void startGame() {
+    	  System.out.println("***********Welcom to Rock Paper Scissor********");
+    	   sc= new Scanner(System.in);
+    	   System.out.println("************************************");
+    	   System.out.println("Enter Your Choise \n 1.Stone \n 2.Paper \n 3.Scissor "
+    	   	                	+ "\n your choise");
+            int uchoise = sc.nextInt();
+            User u = new User();
+           String uc = u.userChoise(uchoise);
+           
+           Comp c = new Comp();
+           String cc = c.cChoise();
+           
+           Decision d = new Decision();
+           d.ruleCheck(uc, cc);
+           
+    	   System.out.println("************************************");
+
+      }
+	
+}

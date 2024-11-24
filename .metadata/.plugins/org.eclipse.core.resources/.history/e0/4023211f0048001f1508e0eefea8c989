@@ -1,0 +1,26 @@
+package com.bookmyshow.main;
+
+import com.bookmyshow.test.Student;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+         
+		Student s1 = new Student();
+		s1.name = "Rushi";
+		s1.age = 17;
+		
+		s1.data();
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter a number");
+		byte b = sc.nextByte();
+		
+		System.out.println(b);
+		
+	}
+
+}

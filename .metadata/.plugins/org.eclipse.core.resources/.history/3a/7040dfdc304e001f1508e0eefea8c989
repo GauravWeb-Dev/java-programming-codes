@@ -1,0 +1,24 @@
+class Student{
+	 int id;
+	 String name;
+	 int age;
+	 
+	 public void play() {
+		 System.out.println("playing cricket");
+	 }
+	 
+	 public void study() {
+		 System.out.println("Learning java");
+	 }
+}
+
+public class Start {
+
+	public static void main(String[] args) {
+                
+		Student s1 = new Student();
+		System.out.println(s1);
+		s1.play();
+	}
+
+}

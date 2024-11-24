@@ -1,0 +1,17 @@
+
+
+package com.bookmyshow.test;
+import java.util.*;
+
+
+ class Student {
+   public String name;
+   public int age;
+    
+    public void data() {
+    	System.out.println(name +"  "+ age);
+    	Scanner sc = new Scanner(System.in);
+    }
+	
+}
+

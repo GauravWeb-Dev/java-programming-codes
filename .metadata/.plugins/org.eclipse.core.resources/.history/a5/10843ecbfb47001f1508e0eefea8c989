@@ -1,0 +1,13 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+        
+//		//fully qualified name
+//		java.util.ArrayList al = new java.util.ArrayList();
+		
+		Student s = new Student();
+		s.play();
+	}
+
+}

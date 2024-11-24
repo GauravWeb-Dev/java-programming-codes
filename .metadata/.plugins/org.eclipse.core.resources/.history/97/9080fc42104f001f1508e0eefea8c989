@@ -1,0 +1,27 @@
+package com.solution.main;
+abstract class Bank{
+	 public abstract void withDreawn();
+	 public abstract void deposit();
+	 public abstract void laon();
+	 public abstract void miniStatement();
+	 public abstract void insurance();
+}
+
+class SBI extends Bank{
+	
+	 public  void withDreawn() {}
+	 public  void deposit() {}
+	 public  void laon() {}
+	 public  void miniStatement() {}
+	 public  void insurance() {}
+	
+}
+
+
+public class TestApp2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

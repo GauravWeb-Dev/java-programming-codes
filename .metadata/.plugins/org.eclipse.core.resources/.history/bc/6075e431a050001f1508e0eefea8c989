@@ -1,0 +1,19 @@
+package com.solution.main;
+interface ISchool{
+	public void play();
+	public void study();
+	public void run();
+	public void eat();
+	public void learn();
+	public void practicals();
+	public void 
+}
+
+
+public class TestApp7 {
+
+	public static void main(String[] args) {
+     
+	}
+
+}

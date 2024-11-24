@@ -1,0 +1,56 @@
+import java.util.Arrays;
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+		String s1 = new String("Sachin");
+		
+		System.out.println(s1.charAt(3));
+        
+		//System.out.println(s1.charAt(-1));
+		
+		System.out.println(s1.length());
+        
+        String s2 = "Sachin";
+        String s3 = "sachin";
+        System.out.println(s2.equals(s3));
+        System.out.println(s2.equalsIgnoreCase(s3));
+        
+        
+        String s4 = "SachinTendulkar";
+        
+        System.out.println(s4.substring(6));
+        
+        System.out.println(s4.substring(6,10));
+        
+        
+        String s6 = "banana";
+        
+        System.out.println(s6.replace('a','i'));
+        
+       System.out.println(s6.toUpperCase()); 
+       
+       System.out.println(s6.toLowerCase());
+       
+       String s7 = "          Virat Kohli       ";
+       
+       System.out.println(s7.trim());
+       
+       System.out.println(s6.indexOf('n'));
+       
+       System.out.println(s6.lastIndexOf('a'));
+       
+       
+       String s9 = "Sachin";
+       
+       String [] c = s9.split("");
+       
+       System.out.println(Arrays.toString(c));
+       
+        
+        
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.solution.test;
+import com.solution.main.Demo;
+
+
+public class Start {
+
+	public static void main(String[] args) {
+          
+		System.out.println("Hello World");
+		
+		Demo d = new Demo();
+		d.add(10, 5);
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.solution.main;
+class School{
+	public static void play() {
+		System.out.println("Students are playing cricket");
+	}
+}
+
+class Student extends School{
+	
+   public static void play() {
+		System.out.println("Students are playing games");
+	}
+	
+}
+
+
+public class Launch {
+
+	public static void main(String[] args) {
+       
+		Student.play();
+		
+	}
+
+}

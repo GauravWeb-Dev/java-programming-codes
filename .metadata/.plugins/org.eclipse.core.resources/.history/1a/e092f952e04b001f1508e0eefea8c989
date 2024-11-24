@@ -1,0 +1,16 @@
+
+public class Test3 {
+    
+	public static void main(String[] args) {
+      int x = 100;
+      
+    String b = (x > 20)? "Hello" : "Bye";
+		
+	    
+	 	
+		
+		
+		
+	}
+
+}

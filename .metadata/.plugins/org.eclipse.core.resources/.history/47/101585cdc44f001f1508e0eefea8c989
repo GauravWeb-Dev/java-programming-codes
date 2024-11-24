@@ -1,0 +1,20 @@
+
+public class TestApp {
+
+	public static void main(String[] args) {
+          
+		
+		String firstName = "Salman";
+		
+		System.out.println(firstName);
+          
+		
+		
+	    String lastName = new String("Khan");
+	    
+	    System.out.println(lastName);
+	    
+	    
+	}
+
+}

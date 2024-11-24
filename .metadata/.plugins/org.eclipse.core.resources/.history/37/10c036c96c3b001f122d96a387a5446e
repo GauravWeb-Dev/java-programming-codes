@@ -1,0 +1,38 @@
+
+public class Test7 {
+
+	public static void main(String[] args) {
+         // conditional Operator
+		   //1 if else
+		
+		int x = 19;
+		
+		if(x == 14) 
+			System.out.println("x is greater than 14");
+		
+		else 
+			System.out.println("X is less than 14");
+		
+		
+		
+	    int j = 12;
+        int k = 12;
+        
+        boolean b3 = (--j != k--) | (k++  >= j++);
+		  
+        if(b3) {
+        	System.out.println("True");
+        }
+        
+        int age = 22;
+        
+        if(age < 21) 
+        	System.out.println("you are minor");
+        
+        
+        
+     
+		
+	}
+
+}

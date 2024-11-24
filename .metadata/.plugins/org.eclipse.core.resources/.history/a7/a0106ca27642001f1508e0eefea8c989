@@ -1,0 +1,17 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+       
+		
+		String name[] = {"salman","akshay","virat","katrina","shradhha","Priyanka" };
+		
+		for(String s : name) {
+			System.out.println(s);
+		}
+	
+
+		
+	}
+
+}

@@ -1,0 +1,34 @@
+
+class Account{
+	
+	 Account() {
+		System.out.println("Zero args Constructor");
+	}
+	
+	Account(int x){
+		System.out.println("Parametric Counstructor" + x);
+	}
+	
+	 Account(int x , String name){
+		System.out.println("Parametric Counstructor " + name);
+	}
+	
+//	Account(){ //Default Constructor
+//     
+//	}
+	
+	
+}
+public class Test {
+
+	public static void main(String[] args) {
+   	
+		Account a1 = new Account();
+		
+		Account a2 = new Account(100);
+		
+		Account a3 = new Account(18 , "Virat");
+
+	}
+
+}

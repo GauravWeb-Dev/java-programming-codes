@@ -1,0 +1,22 @@
+
+
+class Test {
+
+	public static void main(String[] args) {
+		
+	
+		
+		
+		
+		int a = 10, b = 20;
+		byte c = (byte)( (a>b) ? 30 : 40);
+		byte d =(byte) ( (a<b) ? 30 : 40);
+		System.out.println(c);
+		System.out.println(d);
+		
+		
+		
+		
+	}
+
+}

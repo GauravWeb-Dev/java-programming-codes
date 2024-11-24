@@ -1,0 +1,16 @@
+
+class Account{
+	
+	 Account() {
+		System.out.println("Zero args Constructor");
+	}
+}
+public class Test {
+
+	public static void main(String[] args) {
+   
+		
+		Account a1 = new Account();
+	}
+
+}

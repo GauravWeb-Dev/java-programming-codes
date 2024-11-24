@@ -1,0 +1,20 @@
+
+public class Launch {
+
+	public static void main(String[] args) {
+         
+		StringBuffer sb = new StringBuffer();//16
+		
+		int x = sb.capacity();
+		
+		System.out.println(x);
+		
+		sb.append("123456789012345678");//16
+		
+		x = sb.capacity();
+		
+		System.out.println(x);
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.solution.service;
+
+public interface IBank {
+
+}

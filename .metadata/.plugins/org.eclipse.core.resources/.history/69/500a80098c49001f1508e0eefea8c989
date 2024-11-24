@@ -1,0 +1,21 @@
+class Parent{
+	int money;
+	String surname;
+	
+	public void married() {
+		System.out.println("you are going to marry xyz");
+	}
+}
+
+class Child extends Parent{
+   
+	
+}
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

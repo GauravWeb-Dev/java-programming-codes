@@ -1,0 +1,15 @@
+
+public class Launch2 {
+
+	public static void main(String[] args) {
+         
+		StringBuffer sb = new StringBuffer("SachinTendulkar");//16
+		
+		sb.setCharAt(6, 'F');
+		
+		System.out.println(sb);
+		
+		
+	}
+
+}
