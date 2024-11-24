@@ -1,0 +1,26 @@
+package com.solution.service;
+
+public class BankImpl implements IBank{
+
+	@Override
+	public void balanceCheck() {
+      		
+	}
+
+	@Override
+	public void deposit() {
+ 		
+	}
+
+	@Override
+	public void withdrawn() {
+		
+	}
+
+	@Override
+	public void send() {
+
+		
+	}
+
+}

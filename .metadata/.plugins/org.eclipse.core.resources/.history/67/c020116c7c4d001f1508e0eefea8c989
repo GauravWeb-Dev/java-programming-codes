@@ -1,0 +1,41 @@
+package com.solution.main;
+
+class Parent {
+	final int x =10;
+	private void property() {
+		System.out.println("Gold+cash+land");
+	}
+
+	 public final void marry() {
+		System.out.println("Relative girl only u should marry!!!");
+	}
+}
+
+class Child extends Parent {
+	
+	@Override
+	 public void marry() {
+		System.out.println("I want to marry Deepika!!!");
+	}
+	
+	
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+         Parent p = new Parent();
+         p.marry();
+         
+         Child c = new Child();
+         c.marry();
+       //  c.property();
+         Parent pc = new Child();
+         pc.marry();
+       
+         
+         
+		
+	}
+
+}

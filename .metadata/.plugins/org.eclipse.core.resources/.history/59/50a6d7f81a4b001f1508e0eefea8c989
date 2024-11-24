@@ -1,0 +1,12 @@
+package com.solution.main;
+ // Paper stone  = Paper
+//  paper scissor = scissor
+//  Stone scissor = stone
+
+public class Test {
+
+	public static void main(String[] args) {
+        
+	}
+
+}

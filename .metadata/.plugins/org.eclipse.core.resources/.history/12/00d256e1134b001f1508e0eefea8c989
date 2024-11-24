@@ -1,0 +1,15 @@
+
+public class Launch2 {
+
+	public static void main(String[] args) {
+         byte b = 100;
+         
+         int x = b;
+         
+         System.out.println(x);
+         
+       
+		
+	}
+
+}

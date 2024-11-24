@@ -1,0 +1,31 @@
+class Parent{
+	int money;
+	int age;
+	String surname;
+	
+	public void married() {
+		System.out.println("you are going to marry xyz");
+	}
+}
+
+class Child{
+   
+	
+	
+}
+public class Test {
+
+	public static void main(String[] args) {
+           
+		Parent p1 = new Parent();
+		p1.age = 55;
+		p1.money = 99999999;
+		p1.surname = "Ambani";
+		
+		p1.married();
+		
+		Child c1 = new Child();
+		System.out.println(c1.money);
+	}
+
+}

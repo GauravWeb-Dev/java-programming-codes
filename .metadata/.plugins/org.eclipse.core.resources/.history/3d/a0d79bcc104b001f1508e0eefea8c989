@@ -1,0 +1,25 @@
+class Laptop{
+	//has-part 
+	int ram = 8;
+	String name = "Lenovo";
+	String model = "Thinkpad";
+	
+	//does-part
+	public void work() {
+		System.out.println("Working");
+	}
+	
+	
+	
+	
+}
+
+
+public class Launch {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

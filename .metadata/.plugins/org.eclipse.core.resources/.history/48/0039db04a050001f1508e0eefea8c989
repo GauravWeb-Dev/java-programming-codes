@@ -1,0 +1,13 @@
+package com.solution.main;
+interface ISchool{
+	
+}
+
+
+public class TestApp7 {
+
+	public static void main(String[] args) {
+     
+	}
+
+}

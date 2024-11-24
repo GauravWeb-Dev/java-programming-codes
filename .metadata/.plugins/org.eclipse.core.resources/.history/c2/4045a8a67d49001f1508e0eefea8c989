@@ -1,0 +1,43 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int pin = 12345;
+		
+		String name = "Aniket";
+		
+		System.out.println(pin);
+		
+		System.out.println("mentore solution");
+		
+       int x =100;
+       
+       
+       
+       byte b = -128;
+       
+       b = 99;
+       System.out.println(b);
+       byte b1 = 100;
+       
+       System.out.println(Byte.MIN_VALUE);
+       System.out.println(Byte.MAX_VALUE);
+       
+       short s = 1000;
+       
+     s = 9876;
+       
+       
+       short s1 = 9999;
+       
+       
+       
+       
+       
+       
+       
+       
+	}
+
+}

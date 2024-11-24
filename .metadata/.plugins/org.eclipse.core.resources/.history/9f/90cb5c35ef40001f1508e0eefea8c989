@@ -1,0 +1,19 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+          
+		
+		int[] arr = new int[5];
+		
+		arr[0] = 100;
+		arr[1] = 101;
+		arr[2] = 102;
+		arr[3] = 103;
+		arr[4] = 104;
+		
+		String [] arr2 = new String[2];
+		
+	}
+
+}

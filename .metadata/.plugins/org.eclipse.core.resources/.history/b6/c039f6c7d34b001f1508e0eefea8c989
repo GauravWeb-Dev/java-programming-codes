@@ -1,0 +1,33 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		
+		int x = 70;
+		int y = 30;
+		
+		int sum = x+y;
+		
+		System.out.println(sum);
+		
+		System.out.println(x+y);
+		
+		System.out.println(x-y);
+		
+		System.out.println(x*y);
+		
+		System.out.println(x/y);
+		
+		float f = x/y;
+		
+		System.out.println(f);
+		
+		
+		float f1 = 100;
+		float f2 = 200;
+		
+		System.out.println(f1/f2);
+	}
+
+}

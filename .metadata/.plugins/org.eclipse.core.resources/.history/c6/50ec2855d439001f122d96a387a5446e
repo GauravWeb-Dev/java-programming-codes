@@ -1,0 +1,21 @@
+
+ class Test{
+	public static void main(String[] args) {
+		System.out.println("Hello World!!");
+		
+		
+		int thisIsAVariable = 10;
+		int X = 99;
+		
+	
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE);
+		
+		short s = 100;
+		
+		System.out.println(Short.MAX_VALUE);
+		System.out.println(Short.MIN_VALUE);
+		
+		
+	}
+}

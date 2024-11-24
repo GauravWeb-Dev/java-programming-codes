@@ -1,0 +1,21 @@
+
+public class Test6 {
+
+	public static void main(String[] args) {
+         int x =10;
+         int y = 20;
+         
+         int sum = x + y ;
+         System.out.println(sum);
+         
+         int sub = x - y ;
+         System.out.println(sub);
+         
+         int mul = x * y ;
+         System.out.println(mul);
+         
+         int div = x / y ;
+         System.out.println(div);
+	}
+
+}

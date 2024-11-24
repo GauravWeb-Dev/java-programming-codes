@@ -1,0 +1,25 @@
+
+public class Test3 {
+
+	public static void main(String[] args) {
+       
+		byte b = 100;
+		
+		int x = b;
+		
+		float f = 12.5f;
+		
+		double d = f;
+		
+		short s = 10000;
+		
+		long l =s;
+		
+		
+		int x1 = 1000;
+		
+		byte b1 =(byte) x1;
+		System.out.println(x1);
+	}
+
+}

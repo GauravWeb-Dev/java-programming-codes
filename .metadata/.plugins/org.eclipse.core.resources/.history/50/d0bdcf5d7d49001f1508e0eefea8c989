@@ -1,0 +1,31 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int pin = 12345;
+		
+		String name = "Aniket";
+		
+		System.out.println(pin);
+		
+		System.out.println("mentore solution");
+		
+       int x =100;
+       
+       
+       
+       byte b = -128;
+       
+       byte b1 = 127;
+       
+       System.out.println(Byte.MIN_VALUE);
+       System.out.println(Byte.MAX_VALUE);
+       
+       
+       
+       
+       
+	}
+
+}

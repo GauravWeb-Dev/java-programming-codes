@@ -1,0 +1,113 @@
+package com.solution.main;
+
+import java.util.Scanner;
+
+import java.util.Random;
+
+class User {
+	public String userInput() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("please select your option \n1.stone\n2.paper\n3.scissor");
+		System.out.println("Enter your Choice ::");
+		int user = sc.nextInt();
+		String userChoice = "";
+		if (user == 1) {
+
+			userChoice = "stone";
+		} else if (user == 2) {
+			userChoice = "paper";
+		} else if (user == 3) {
+			userChoice = "scissor";
+		} else {
+			System.out.println("INvalid choice");
+		}
+		return userChoice;
+	}
+
+}
+
+class Comp {
+
+	public String compInput() {
+		String[] s = { "stone", "paper", "scissor" };
+		Random r = new Random();
+		String comp = s[r.nextInt(3)];
+		System.out.println("Computer's coice :" + comp);
+		return comp;
+
+	}
+}
+
+class Decision {
+	int userScore = 0;
+	int compScore = 0;
+
+	public void decision(String userChoice, String compChoice) {
+//		User u = new User();
+//		Comp c = new Comp();
+//		String userChoice = u.userInput();
+//		String compChoice = c.compInput();
+		if ((userChoice == "stone" && compChoice == "paper") || (userChoice == "paper" && compChoice == "scissor")
+				|| (userChoice == "scissor" && compChoice == "stone")) {
+			System.out.println("Computer is winner");
+			compScore++;
+		} else if ((userChoice == "paper" && compChoice == "stone")
+				|| (userChoice == "scissor" && compChoice == "paper")
+				|| (userChoice == "stone" && compChoice == "scissor")) {
+			System.out.println("user is winner");
+			userScore++;
+		} else {
+			System.out.println("Game is tie");
+		}
+		System.out.println("Computer score is " + compScore + "\nUser score is " + userScore);
+	}
+}
+
+class Start {
+	public void start() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("------Welcome------");
+		System.out.println("Enter no of rounds :");
+		int noRounds = sc.nextInt();
+		User u = new User();
+		Comp c = new Comp();
+		Decision d = new Decision();
+		boolean flag = true;
+		int i=0;
+		while (flag) {
+			String userChoice = u.userInput();
+			String compChoice = c.compInput();
+			d.decision(userChoice, compChoice);
+			
+			if (i > noRounds) {
+				flag = false;
+			}
+			i++;
+		}
+//	for(int i =0;i<noRounds;i++) {
+//		String userChoice=u.userInput();
+//	    String compChoice=c.compInput();
+//     	d.decision(userChoice,compChoice);
+//	}
+		if (d.userScore > d.compScore) {
+			System.out.println("User is wone by " + d.userScore + "rounds");
+		} else if (d.compScore > d.userScore) {
+			System.out.println("Computer is won by " + d.compScore + "ronds");
+		} else {
+			System.out.println("This game is tie because of same score");
+		}
+
+	}
+
+}
+
+public class Game55 {
+
+	public static void main(String[] args) {
+
+		Start s = new Start();
+		s.start();
+
+	}
+
+}

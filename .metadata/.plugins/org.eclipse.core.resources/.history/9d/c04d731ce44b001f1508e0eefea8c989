@@ -1,0 +1,113 @@
+package com.solution.main;
+
+import java.util.Scanner;
+
+import java.util.Random;
+
+class User55 {
+	public String User55Input() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("please select your option \n1.stone\n2.paper\n3.scissor");
+		System.out.println("Enter your Choice ::");
+		int User55 = sc.nextInt();
+		String User55Choice = "";
+		if (User55 == 1) {
+
+			User55Choice = "stone";
+		} else if (User55 == 2) {
+			User55Choice = "paper";
+		} else if (User55 == 3) {
+			User55Choice = "scissor";
+		} else {
+			System.out.println("INvalid choice");
+		}
+		return User55Choice;
+	}
+
+}
+
+class Comp55 {
+
+	public String Comp55Input() {
+		String[] s = { "stone", "paper", "scissor" };
+		Random r = new Random();
+		String Comp55 = s[r.nextInt(3)];
+		System.out.println("Comp55uter's coice :" + Comp55);
+		return Comp55;
+
+	}
+}
+
+class Decision {
+	int User55Score = 0;
+	int Comp55Score = 0;
+
+	public void decision(String User55Choice, String Comp55Choice) {
+//		User55 u = new User55();
+//		Comp55 c = new Comp55();
+//		String User55Choice = u.User55Input();
+//		String Comp55Choice = c.Comp55Input();
+		if ((User55Choice == "stone" && Comp55Choice == "paper") || (User55Choice == "paper" && Comp55Choice == "scissor")
+				|| (User55Choice == "scissor" && Comp55Choice == "stone")) {
+			System.out.println("Comp55uter is winner");
+			Comp55Score++;
+		} else if ((User55Choice == "paper" && Comp55Choice == "stone")
+				|| (User55Choice == "scissor" && Comp55Choice == "paper")
+				|| (User55Choice == "stone" && Comp55Choice == "scissor")) {
+			System.out.println("User55 is winner");
+			User55Score++;
+		} else {
+			System.out.println("Game is tie");
+		}
+		System.out.println("Comp55uter score is " + Comp55Score + "\nUser55 score is " + User55Score);
+	}
+}
+
+class Start {
+	public void start() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("------Welcome------");
+		System.out.println("Enter no of rounds :");
+		int noRounds = sc.nextInt();
+		User55 u = new User55();
+		Comp55 c = new Comp55();
+		Decision d = new Decision();
+		boolean flag = true;
+		int i=0;
+		while (flag) {
+			String User55Choice = u.User55Input();
+			String Comp55Choice = c.Comp55Input();
+			d.decision(User55Choice, Comp55Choice);
+			
+			if (i > noRounds) {
+				flag = false;
+			}
+			i++;
+		}
+//	for(int i =0;i<noRounds;i++) {
+//		String User55Choice=u.User55Input();
+//	    String Comp55Choice=c.Comp55Input();
+//     	d.decision(User55Choice,Comp55Choice);
+//	}
+		if (d.User55Score > d.Comp55Score) {
+			System.out.println("User55 is wone by " + d.User55Score + "rounds");
+		} else if (d.Comp55Score > d.User55Score) {
+			System.out.println("Comp55uter is won by " + d.Comp55Score + "ronds");
+		} else {
+			System.out.println("This game is tie because of same score");
+		}
+
+	}
+
+}
+
+public class Game55 {
+
+	public static void main(String[] args) {
+
+		Start s = new Start();
+		s.start();
+
+	}
+
+}

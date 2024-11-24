@@ -1,0 +1,26 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+         /*
+          * 1 if else
+          * 2. ternary operator
+          * 3. switch case
+          *   
+          */
+		int x = 10;
+		if(x > 9) {
+			
+			System.out.println("X is greater than 9");
+			
+		}
+		else {
+			System.out.println("X is less than 9");
+		}
+			
+			
+			
+			
+	}
+
+}

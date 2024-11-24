@@ -1,0 +1,33 @@
+import java.util.Arrays;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+      
+		int[] arr = {10,20,30,40,50};
+		
+		System.out.println(arr.toString());
+		
+		System.out.println(Arrays.toString(arr));
+		
+		int[] arr2 = Arrays.copyOf(arr,1);
+		
+		System.out.println(Arrays.toString(arr2));
+		
+		
+		
+		int[] arr3 = {40,20,70,50,10,90};
+		
+		
+		Arrays.sort(arr3);//10,20,40,50,70,90
+		
+		System.out.println(Arrays.toString(arr3));
+	
+		System.out.println(Arrays.binarySearch(arr3, 30));
+
+		
+		
+		
+	}
+
+}

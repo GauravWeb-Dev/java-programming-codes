@@ -1,0 +1,19 @@
+package com.solution.main;
+
+import java.util.Scanner;
+
+// Paper stone  = Paper
+//  paper scissor = scissor
+//  Stone scissor = stone
+
+public class Test {
+
+	public static void main(String[] args) {
+        
+		Scanner sc = new Scanner(System.in);
+		System.out.println("**********Welcome to Stone Paper Scissor********");
+	    System.out.println("Please Select your chiose");
+	    System.out.println("1. Stone/n 2.Paper /n 3.Scissor");
+	}
+
+}

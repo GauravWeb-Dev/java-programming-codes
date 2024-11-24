@@ -1,0 +1,97 @@
+package com.solution.main;
+
+import java.util.Scanner;
+import java.util.Random;
+
+// Paper stone  = Paper
+//  paper scissor = scissor
+//  Stone scissor = stone
+
+public class Test {
+
+	public static void main(String[] args) {
+        
+		Scanner sc = new Scanner(System.in);
+		System.out.println("**********Welcome to Stone Paper Scissor********");
+	    System.out.println("Please Select your chiose");
+	    System.out.println("1.Stone\n2.Paper\n3.Scissor");
+	    
+	    
+	    //User selection code
+	    System.out.print("Your choise :: ");
+	    int user = sc.nextInt();
+	    String userChoise ;
+	    System.out.println();
+	    
+	    //Type 1
+//	    if(user == 1) {
+//	    	userChoise = "stone";
+//	    }
+//	    else if(user == 2) {
+//	    	userChoise = "paper";
+//	    }
+//	    else if(user==3) {
+//	    	userChoise ="scissor";
+//	    }
+	    
+	    //Type 2
+//	    switch(user) {
+//	    case 1: userChoise="stone";
+//	           break;
+//	    case 2: userChoise="paper";
+//               break;
+//	    case 3: userChoise="scissor";
+//                break;
+//	    }
+	    
+	    //Type 3
+	    String[] s = {null,"stone","paper","scissor"};
+	    userChoise = s[user];
+	    
+	    
+	    //Computer selection code
+	    Random r = new Random();
+	    
+	    int comp = r.nextInt(3);
+	    
+	    String[] s1 = {"stone","paper","scissor"};
+	   String compChoise = s1[comp];
+	   
+	   
+	   
+	   
+	   //Comparison
+	   if((userChoise=="paper" && compChoise=="stone") ||
+	      (userChoise=="stone" && compChoise=="scissor")   ) {
+		    System.out.println("User won the Game");   
+	   }
+	   else if(userChoise=="paper" && compChoise=="scissor") {
+		    System.out.println("Comp won the Game");   
+
+	   }
+	 
+	   else if(userChoise=="stone" && compChoise=="paper") {
+		    System.out.println("comp won the Game");   
+
+	   }
+	   else if(userChoise=="scissor" && compChoise=="paper") {
+		    System.out.println("User won the Game");   
+
+	   }
+	   else if(userChoise=="scissor" && compChoise=="stone") {
+		    System.out.println("comp won the Game");   
+
+	   }
+	   else {
+		   System.out.println("The Game is tie");
+	   }
+	   
+	   
+	   System.out.println("\nUser's Choise :: " +userChoise);
+	   System.out.println("Comp's Choise :: " +compChoise);
+
+	    
+	    
+	}
+
+}

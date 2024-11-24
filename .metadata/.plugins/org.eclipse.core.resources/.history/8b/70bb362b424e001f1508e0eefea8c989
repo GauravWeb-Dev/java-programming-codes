@@ -1,0 +1,23 @@
+package com.solution.main;
+class Parent1 {
+	
+	
+	
+}
+
+class Child1 extends Parent1{
+  
+	
+	
+}
+
+
+public class Test3 {
+
+	public static void main(String[] args) {
+      
+		Child1 c = new Child1();
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.solution.main;
+// Write a program in which create class name car and add variables like name 
+// color , price , seats and create getter and setter methods for them.
+
+
+
+public class Launch2 {
+
+	public static void main(String[] args) {
+          
+	
+	   
+	    
+	
+	}
+
+}

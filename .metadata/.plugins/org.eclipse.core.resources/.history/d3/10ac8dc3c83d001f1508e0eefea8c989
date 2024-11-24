@@ -1,0 +1,12 @@
+
+
+class Test {
+
+	public static void main(String[] args) {
+		char c1 = 'a'; 
+		int i1 = c1; //Line n1 
+		System.out.println(i1); //Line n2
+		
+	}
+
+}

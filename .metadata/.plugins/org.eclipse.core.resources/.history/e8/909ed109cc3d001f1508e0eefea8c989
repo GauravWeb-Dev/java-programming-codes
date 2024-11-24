@@ -1,0 +1,23 @@
+
+
+class Test {
+
+	public static void main(String[] args) {
+		
+	
+		
+		
+		
+		System.out.println();
+		
+		byte c = (10> 20) ? 30 : 40;
+		byte d =(10<20) ? 30 : 40;
+		System.out.println(c);
+		System.out.println(d);
+		
+		
+		
+		
+	}
+
+}

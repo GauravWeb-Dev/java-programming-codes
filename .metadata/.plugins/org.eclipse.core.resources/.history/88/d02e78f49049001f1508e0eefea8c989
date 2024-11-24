@@ -1,0 +1,9 @@
+
+
+public class Snippet {
+	public static void main(String[] args) {
+		System.out.println(c1.money);
+				System.out.println(c1.surname);
+				c1.married();
+	}
+}

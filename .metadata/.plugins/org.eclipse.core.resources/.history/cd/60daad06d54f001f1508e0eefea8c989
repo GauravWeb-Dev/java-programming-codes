@@ -1,0 +1,40 @@
+package com.solution.main;
+
+interface IBank {
+	float interest = 8.05f;
+
+	public void blanceCheck();
+
+	public int withdrawn();
+
+	public String miniStatement();
+
+}
+
+class BankImpl implements IBank {
+    int balance  = 10000;
+	public void blanceCheck() {
+         System.out.println("your current balance is "+balance);
+	}
+
+	public int withdrawn(int balance) {
+		this.balance -= balance;
+		
+		return balance;
+
+	}
+
+	public String miniStatement() {
+		return "data of all transaction";
+
+	}
+
+}
+
+public class TestApp {
+
+	public static void main(String[] args) {
+
+	}
+
+}

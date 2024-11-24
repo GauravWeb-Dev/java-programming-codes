@@ -1,0 +1,13 @@
+package com.solution.main;
+
+public class Demo {
+    
+	public void add(int x ,int y) {
+    	System.out.println("Entering add method of demo");
+
+		System.out.println(x+y);
+		
+    	System.out.println("Exiting add method of Demo");
+
+	}
+}

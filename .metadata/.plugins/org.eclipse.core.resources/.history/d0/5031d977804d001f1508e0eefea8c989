@@ -1,0 +1,17 @@
+package com.solution.main;
+class Student{
+	
+	public static void play() {
+		System.out.println("Students are playing cricket");
+	}
+}
+
+public class Launch {
+
+	public static void main(String[] args) {
+       
+		Student.play();
+		
+	}
+
+}

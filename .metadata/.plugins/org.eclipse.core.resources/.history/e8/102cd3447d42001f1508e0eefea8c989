@@ -1,0 +1,26 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+         
+		Object[] x = new Object[9];
+		
+		int a  = 100; //primitive
+		
+		Integer a2 = 100;//Wrapper class
+		
+		String name = "Aniket";
+		
+		x[0] =a;
+		x[1] = a2;
+		x[3] = name;
+		
+		for(Object o : x) {
+			System.out.println(o);
+		}
+		
+		
+		
+	}
+
+}

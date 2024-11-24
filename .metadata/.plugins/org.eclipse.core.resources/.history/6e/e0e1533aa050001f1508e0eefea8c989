@@ -1,0 +1,59 @@
+package com.solution.main;
+interface ISchool{
+	public void play();
+	public void study();
+	public void run();
+	public void eat();
+	public void learn();
+	public void practicals();
+
+}
+
+class SchoolImpl implements ISchool{
+
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void study() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void learn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void practicals() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+
+public class TestApp7 {
+
+	public static void main(String[] args) {
+     
+	}
+
+}

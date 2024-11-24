@@ -1,0 +1,27 @@
+package com.solution.controller;
+
+public class Decision {
+      public int userScore = 0;
+      public int compScore = 0;
+	
+	public String ruleCheck(String uc ,String cc) {
+		if((uc.equals("paper") && cc.equals("stone")) ||
+		    (uc.equals("stone") && cc.equals("scissor")) ||
+		    (uc.equals("scissor") && cc.equals("paper"))) {
+			System.out.println("User Won this Game");
+			userScore++;
+			
+		}
+		else if((cc.equals("paper") && uc.equals("stone")) ||
+			    (cc.equals("stone") && uc.equals("scissor")) ||
+			    (cc.equals("scissor") && uc.equals("paper"))) {
+			System.out.println("Comp Won this Game");
+			compScore++;
+		}
+		else {
+			System.out.println("The Game is tie you both Selected Same Option");
+		}
+		return null;
+		
+	}
+}

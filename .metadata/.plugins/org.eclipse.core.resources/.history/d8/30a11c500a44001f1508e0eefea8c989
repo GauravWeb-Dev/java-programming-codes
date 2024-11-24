@@ -1,0 +1,23 @@
+
+public class Test4 {
+
+	public static void main(String[] args) {
+      
+		Test4 t = new Test4();
+		int[] arr = {10,20,30};
+		
+		t.add(arr);
+		
+		System.out.println("end of main method");
+		
+	}
+	
+	public void add(int[] a) {
+		int sum =0;
+		for(int i=0;i<a.length;i++) {
+			sum +=a[i];
+		}
+		System.out.println(sum);
+	}
+
+}

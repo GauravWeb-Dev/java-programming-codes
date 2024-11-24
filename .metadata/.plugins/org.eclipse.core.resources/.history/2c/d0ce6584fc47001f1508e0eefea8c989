@@ -1,0 +1,11 @@
+package com.bookmyshow.test;
+
+public class Student {
+    String name;
+    int age;
+    
+    public void data() {
+    	System.out.println(name +"  "+ age);
+    }
+	
+}

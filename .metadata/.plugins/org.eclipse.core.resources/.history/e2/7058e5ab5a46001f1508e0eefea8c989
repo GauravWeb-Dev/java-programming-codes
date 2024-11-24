@@ -1,0 +1,15 @@
+
+public class Launch {
+
+	public static void main(String[] args) {
+          
+		int[] arr =new int[5];
+		
+		System.out.println(arr);
+		
+		float [] f = new float[8];
+		
+		System.out.println(f);
+	}
+
+}

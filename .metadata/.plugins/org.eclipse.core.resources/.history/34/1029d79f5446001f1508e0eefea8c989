@@ -1,0 +1,14 @@
+
+public class Test12 {
+
+	public static void main(String[] args) {
+              
+	StringBuffer sb = new StringBuffer();
+	sb.append("SalmanKhan");
+	
+	System.out.println(sb.capacity());
+	
+	
+	}
+
+}
